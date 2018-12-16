@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".SignUpActivity">
 
     <LinearLayout
@@ -14,82 +14,85 @@
         android:background="#FFFFFF"
         android:orientation="vertical"
         android:padding="20dp">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="카카오 계정으로 ..."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="카카오 계정으로 ..." />
 
 
         <LinearLayout
-            android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
             android:gravity="center">
+
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/login_icon"
-                />
+                android:src="@drawable/login_icon" />
 
         </LinearLayout>
 
 
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="아이디를 입력하세요" />
 
         <EditText
-            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="아이디를 입력하세요"/>
-        <EditText
             android:layout_marginTop="5dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="비번을 입력하세요"
-            />
+            android:hint="비번을 입력하세요" />
 
         <TextView
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="10dp"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
             android:text="이벤트 참여 등 회원 확인을 위해 고객님의 이메일 주소를 입력해주세요"
 
             />
-        </LinearLayout>
+    </LinearLayout>
 
 
     <LinearLayout
-        android:paddingLeft="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:background="#F7F7F7"
         android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp">
 
         <CheckBox
 
-            android:layout_marginTop="25dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="천체 약관에 동의합니다"/>
+            android:layout_marginTop="25dp"
+            android:text="천체 약관에 동의합니다" />
 
         <LinearLayout
-            android:layout_marginTop="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
             android:orientation="horizontal">
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="서비스 이용 약관"/>
+                android:text="서비스 이용 약관" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@mipmap/ic_launcher_round"
-                />
-
-
-
+                android:src="@mipmap/ic_launcher_round" />
 
 
         </LinearLayout>
@@ -103,82 +106,86 @@
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="개인정보처리방침"/>
+                android:text="개인정보처리방침" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@mipmap/ic_launcher_round"
-                />
-
-
-
+                android:src="@mipmap/ic_launcher_round" />
 
 
         </LinearLayout>
 
 
         <LinearLayout
-            android:layout_marginTop="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
             android:orientation="horizontal">
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="유료상품 이용약관"/>
+                android:text="유료상품 이용약관" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@mipmap/ic_launcher_round"
-                />
-
-
-
+                android:src="@mipmap/ic_launcher_round" />
 
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_marginTop="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
             android:orientation="horizontal">
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="이벤트 마케팅 수신동의(선택)"/>
+                android:text="이벤트 마케팅 수신동의(선택)" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
 
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@mipmap/ic_launcher_round"
-                />
+                android:src="@mipmap/ic_launcher_round" />
 
 
         </LinearLayout>
 
         <TextView
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="카카오 계정으로 가입시"/>
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="카카오 계정으로 가입시" />
 
     </LinearLayout>
 
 
-
     <Button
-        android:textColor="#FFFFFF"
-        android:background="#7848D5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="다음"/>
-
-
-
+        android:background="#7848D5"
+        android:text="다음"
+        android:textColor="#FFFFFF" />
 
 
 </LinearLayout>
