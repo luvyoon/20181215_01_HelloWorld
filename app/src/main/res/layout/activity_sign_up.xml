@@ -36,12 +36,14 @@
 
 
         <EditText
+            android:id="@+id/idEdt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:hint="아이디를 입력하세요" />
 
         <EditText
+            android:id="@+id/pwEdt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
@@ -67,7 +69,7 @@
         android:paddingRight="7dp">
 
         <CheckBox
-
+            android:id="@+id/allCheckBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
@@ -181,6 +183,7 @@
 
 
     <Button
+        android:id="@+id/signUpBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#7848D5"
